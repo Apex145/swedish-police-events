@@ -19,7 +19,7 @@ Keep in mind that not all events have markers so it may be less the 40.
 
 # Preview 
 This is how the application should look like. It will display all necessary information about the event/crime. If you click url
-in any of the map markers it will let you read more about the event/crime. Keep in mind that everthing will be in swedish.
+in any of the map markers it will let you read more about the event/crime. Keep in mind that everything will be in swedish.
 <img width="496" height="513" alt="image" src="https://github.com/user-attachments/assets/74d84d42-fd10-4562-9d03-532905664af5" />
 
 
