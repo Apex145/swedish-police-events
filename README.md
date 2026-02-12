@@ -1,6 +1,6 @@
 # Sweden Police Events Tracker
-An interactive web application that visualizes real-time data from the Swedish Police Authority (Polisen) API. This tool fetches the latest criminal and traffic incidents across Sweden and plots them on a dynamic map.
-This is a very simple application using a fetch to get the api and using Leaflet to display a map of the 40 newest events/crimes that the swedish police has uploaded. It will not show all the 40 markers at once it only shows the most recent ones.
+This is a very simple application using a fetch to get the api and using Leaflet to display a map of the 40 newest events/crimes that the swedish police has uploaded. It will show up to 40 markers at once. 
+Keep in mind that not all event have markers so it may be less the 40.
 
 # Features
 - **Live Data Fetching:** Automatically retrieves the 40 most recent police reports.
