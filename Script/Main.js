@@ -1,5 +1,4 @@
 const target = "https://polisen.se/api/events";
-const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(target)}`;
 const div = document.getElementById("info-div")
 const map = L.map('map').setView([62.0, 15.0], 5)
 
@@ -15,7 +14,7 @@ fetch(target)
 .then(data => {
     console.log(data);
 
-    data.slice(0,20).forEach(information => {
+    data.slice(0,40).forEach(information => {
 
         const fullInforamtion = "https://polisen.se" + information.url;
 
